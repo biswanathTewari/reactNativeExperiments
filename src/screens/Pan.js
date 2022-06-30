@@ -55,7 +55,7 @@ const Pan = () => {
       onPanResponderRelease: () => {
         Animated.spring(centerPan, {
           toValue: {x: 0, y: 0}, // we can create tinder like card by adjusting the spring values
-          useNativeDriver: true,
+          useNativeDriver: false,
         }).start();
       },
     }),
