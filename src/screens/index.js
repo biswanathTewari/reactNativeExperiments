@@ -1,6 +1,6 @@
 export * from './Landing';
 export * from './Pan';
 // animations
-export * from './Opacity';
-export * from './Translate';
-export * from './Scale';
+export * from './Animations/Opacity';
+export * from './Animations/Translate';
+export * from './Animations/Scale';
