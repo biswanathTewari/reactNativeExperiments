@@ -9,3 +9,5 @@ export * from './Animations/Positioned';
 export * from './Animations/Bgcolor';
 export * from './Animations/Rotation';
 export * from './Animations/Easing';
+export * from './Animations/Eventbased';
+export * from './Animations/Decay';
