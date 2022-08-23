@@ -11,3 +11,5 @@ export * from './Animations/Rotation';
 export * from './Animations/Easing';
 export * from './Animations/Eventbased';
 export * from './Animations/Decay';
+// basic animations
+export * from './Animations/FourCorners';
