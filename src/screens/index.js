@@ -13,3 +13,4 @@ export * from './Animations/Eventbased';
 export * from './Animations/Decay';
 // basic animations
 export * from './Animations/FourCorners';
+export * from './Animations/MessengerPopups';
