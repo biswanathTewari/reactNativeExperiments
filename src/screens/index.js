@@ -11,3 +11,8 @@ export * from './Animations/Rotation';
 export * from './Animations/Easing';
 export * from './Animations/Eventbased';
 export * from './Animations/Decay';
+// basic animations
+export * from './Animations/FourCorners';
+export * from './Animations/MessengerPopups';
+export * from './Animations/TinderCards';
+export * from './Animations/ProgressBtn';
