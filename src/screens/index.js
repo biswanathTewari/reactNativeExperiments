@@ -15,3 +15,4 @@ export * from './Animations/Decay';
 export * from './Animations/FourCorners';
 export * from './Animations/MessengerPopups';
 export * from './Animations/TinderCards';
+export * from './Animations/ProgressBtn';
