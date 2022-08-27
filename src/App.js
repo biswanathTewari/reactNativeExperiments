@@ -1,13 +1,13 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
 
-import {ProgressBtn} from './screens';
+import {PhotoGrid} from './screens';
 
 const App = () => {
   return (
     <SafeAreaView
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <ProgressBtn />
+      <PhotoGrid />
     </SafeAreaView>
   );
 };
