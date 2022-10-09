@@ -8,11 +8,13 @@ import {
   TouchableWithoutFeedback,
   Dimensions,
 } from 'react-native';
+import FastImage from 'react-native-fast-image';
 
 import {images} from '../../assets/imgs';
 
 const PhotoGrid = () => {
   const {width: windowWidth} = Dimensions.get('window');
+  const AnimatedImage = Animated.createAnimatedComponent(FastImage);
 
   // animated values
   const animated = React.useState(new Animated.Value(0))[0];
@@ -156,7 +158,7 @@ const PhotoGrid = () => {
               <TouchableWithoutFeedback
                 key={index}
                 onPress={() => openImageHandlers(index)}>
-                <Animated.Image
+                <AnimatedImage
                   source={src}
                   style={[styles.gridImage, style]}
                   resizeMode="cover"
@@ -176,7 +178,7 @@ const PhotoGrid = () => {
         <View
           style={styles.topContent}
           ref={image => (viewImageRef.current = image)}>
-          <Animated.Image
+          <AnimatedImage
             key={activeImage}
             source={activeImage}
             resizeMode="cover"
