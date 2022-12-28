@@ -7,14 +7,15 @@ import {
   ScrollView,
   TouchableWithoutFeedback,
   Dimensions,
+  Image,
 } from 'react-native';
-import FastImage from 'react-native-fast-image';
+//import FastImage from 'react-native-fast-image';
 
 import {images} from '../../assets/imgs';
 
 const PhotoGrid = () => {
   const {width: windowWidth} = Dimensions.get('window');
-  const AnimatedImage = Animated.createAnimatedComponent(FastImage);
+  const AnimatedImage = Animated.createAnimatedComponent(Image);
 
   // animated values
   const animated = React.useState(new Animated.Value(0))[0];
@@ -146,6 +147,8 @@ const PhotoGrid = () => {
   const animatedClose = {
     opacity: activeImage ? 1 : 0,
   };
+
+  return null;
 
   return (
     <View style={styles.container}>
