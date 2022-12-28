@@ -18,3 +18,5 @@ export * from './Animations/TinderCards';
 export * from './Animations/ProgressBtn';
 // advanced animations
 export * from './Animations/PhotoGrid';
+// reanimated
+export * from './Reanimated/ReanimatedPan';
