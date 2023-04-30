@@ -20,3 +20,5 @@ export * from './Animations/ProgressBtn';
 export * from './Animations/PhotoGrid';
 // reanimated
 export * from './Reanimated/ReanimatedPan';
+export * from './Reanimated/ZoomImage';
+export * from './Reanimated/ScrollPro';
