@@ -22,3 +22,4 @@ export * from './Animations/PhotoGrid';
 export * from './Reanimated/ReanimatedPan';
 export * from './Reanimated/ZoomImage';
 export * from './Reanimated/ScrollPro';
+export * from './Reanimated/ColorPickerScreen';
