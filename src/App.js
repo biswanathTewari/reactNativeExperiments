@@ -1,13 +1,16 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
-import {PhotoGrid} from './screens';
+import {ColorPickerScreen} from './screens';
 
 const App = () => {
   return (
     <SafeAreaView
       style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <PhotoGrid />
+      <GestureHandlerRootView style={{flex: 1, width: '100%'}}>
+        <ColorPickerScreen />
+      </GestureHandlerRootView>
     </SafeAreaView>
   );
 };
