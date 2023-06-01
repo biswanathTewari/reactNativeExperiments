@@ -1,3 +1,5 @@
+// looks for useSharedValue and appends a boolean literal to the end of the arguments
+
 module.exports = function ({types: t}) {
   return {
     visitor: {

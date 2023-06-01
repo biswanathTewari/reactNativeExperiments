@@ -47,7 +47,8 @@ const ColorPicker = ({colors, start, end, style, maxWidth, onColorChange}) => {
       transform: [
         {translateX: derivedX.value},
         {translateY: translateY.value},
-        {scale: scale.value},
+        {scaleX: scale.value},
+        {scaleY: scale.value},
       ],
     };
   });
